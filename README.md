@@ -104,3 +104,4 @@ The CS50x QuickTab project is an innovative web application designed to assist C
 ---
 
 Thanks to ChatGPT for writing this README.md!
+Not an Official tool developed by Harvard University, this is just a 13 year old's final project for the course!
