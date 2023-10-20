@@ -4,37 +4,44 @@
 
 ## CS50x QuickTab Readme
 
-Welcome to the CS50x QuickTab project! This readme provides a comprehensive guide to understanding and using the CS50x QuickTab web application. Below, you'll find an overview of the project, its main components, and instructions for getting started.
+Welcome to the CS50x QuickTab project! This readme provides a comprehensive guide to understanding and using the CS50x QuickTab web application. Below is an overview of the project, its main components, and instructions for getting started.
 
 ### Overview
-The CS50x QuickTab is a browser extension designed to enhance your experience while taking Harvard's CS50x course. This extension provides you with quick access to essential tools and resources for the course right from your browser's new tab page. Whether you're searching for relevant course materials, planning your study schedule, or simply customizing the interface, the CS50x QuickTab has you covered.
+The CS50x QuickTab is a browser extension designed to enhance your experience while taking Harvard's CS50x course. This extension provides quick access to essential tools and resources for the course from your browser's new tab page. Whether you're searching for relevant course materials, planning your study schedule, or simply customizing the interface, the CS50x QuickTab has you covered.
 
 ### Getting Started
 
-To use the CS50x QuickTab, follow these steps:
+To use the CS50x QuickTab through developer mode, follow these steps:
 
-1. **Download the Extension:** [Download the zip file](https://drive.google.com/file/d/1rUaYWJPDk8EVj8zTNWRyuwxzFui4TVgK/view?usp=sharing) containing the CS50x QuickTab extension.
+1.1 **Download the Extension:** [Download the zip file](https://github.com/nathankassahun/CS50x-Quicktab/blob/main/CS50x%20Quicktab.zip?raw=true) containing the CS50x QuickTab extension.
 
-2. **Unzip the File:** Extract the contents of the zip file to a location of your choice on your computer.
+1.2 **Unzip the File:** Extract the zip file's contents to a location of your choice on your computer.
 
-3. **Enable Developer Mode:**
+1.3 **Enable Developer Mode:**
 
    - **Google Chrome:** Open your Chrome browser and go to the Extensions page by entering `chrome://extensions/` in the address bar. Toggle on "Developer mode" using the switch at the top-right corner of the page.
 
    - **Microsoft Edge:** Similarly, open Edge and go to the Extensions page using `edge://extensions/`. Toggle on "Developer mode."
 
-4. **Load the Extension:**
+1.4 **Load the Extension:**
 
    - **Google Chrome:** Click the "Load unpacked" button and select the folder where you extracted the CS50x QuickTab extension files.
 
    - **Microsoft Edge:** Similarly, click the "Load unpacked" button and select the same folder.
 
-5. **First-Time Setup:**
+**OR**
+
+1. **Install through Browser Web Stores**
+   - **Google Chrome:** [Click this link to Install](https://chromewebstore.google.com/detail/cs50x-quicktab/mphhgckagmjjakpmdcongkcembbhlngo)
+     
+   - **Microsoft Edge:** [Click this link to Install](https://microsoftedge.microsoft.com/addons/detail/cs50x-quicktab/ahemkfbppcgjhdajlombgaeaoegkomkl)
+
+2. **First-Time Setup:**
 
    - Name: Personalize your experience by providing your name for friendly greetings on the new tab page.
    - Background Color: Customize the background color of the new tab page. Choose from presets or select a custom color using the color picker.
    - Search Engine Selection: Choose your preferred search engine for quick and easy web searches related to the course.
-   - Toggle Features: Decide which features you want to enable or disable, such as bookmarks, date display, time display, and personalized greetings.
+   - Toggle Features: Decide which features you want to enable or disable, such as bookmarks, date displays, time displays, and personalized greetings.
    - Week Selection: Choose the current week of your CS50x course. This tailors content and resources based on your progress.
    - Finish Setup: Once you've configured your settings, click the "Finish Setup" button to save preferences and start using the CS50x QuickTab.
 
@@ -57,11 +64,11 @@ The CS50x QuickTab offers the following features:
 The CS50x QuickTab project is structured as a web application using HTML, CSS, JavaScript, and Handlebars.js for templating. The main components of the project include:
 
 - HTML Files: The project consists of three HTML files: index.html, credits.html, and setup.html. These files define the structure of the user interface and various modal popups.
-- CSS Styles: CSS styling is applied through the styles.css file, defining the visual appearance of the application.
+- CSS Styles: CSS styling is applied through the styles.css file, defining the application's visual appearance.
 - JavaScript Logic: The main application logic is implemented in the main.js file. This includes handling user interactions, local storage management, and dynamic content rendering.
-- CS50x Week Content: All the CS50x Content is stored inside data.js which is a very large array that holds the content, instructions, and bookmarks for the week.
+- CS50x Week Content: All the CS50x Content is stored inside data.js, a very large array that holds the week's content, instructions, and bookmarks.
 - Handlebars Templates: Handlebars templates are used to generate dynamic content. Precompiled templates are stored in the hbs-templates folder and are used to render various sections of the UI.
-- External Dependencies: The project relies on external dependencies like Bootstrap for styling and interactivity, and Handlebars.js for template rendering.
+- External Dependencies: The project relies on external dependencies like Bootstrap for styling and interactivity and Handlebars.js for template rendering.
 
 ### Functionality Overview
 
@@ -69,8 +76,8 @@ The CS50x QuickTab is designed to provide an enhanced experience for CS50x stude
 
 #### Personalization and Setup
 
-- Users are prompted to set their name, background color, search engine preference, and toggle various UI elements during the setup process.
-- The setup.html page guides users through these personalization choices using a step-by-step carousel interface.
+- Users are prompted to set their name, background color, and search engine preference and toggle various UI elements during setup.
+- Using a step-by-step carousel interface, the setup.html page guides users through these personalization choices.
 
 #### Quick Access to CS50x Resources
 
@@ -79,7 +86,7 @@ The CS50x QuickTab is designed to provide an enhanced experience for CS50x stude
 
 #### Dynamic Content Rendering
 
-- Handlebars.js templates are used to dynamically generate content based on user settings and progress.
+- Handlebars.js templates are used to generate content based on user settings and progress dynamically.
 - Templates are precompiled and stored in the hbs-templates folder for efficient rendering.
 
 #### Local Storage Management
@@ -99,9 +106,9 @@ If you're interested in contributing to the CS50x QuickTab project or exploring 
 
 ### Conclusion
 
-The CS50x QuickTab project is an innovative web application designed to assist CS50x students in their coursework. By exploring the codebase, you can gain a deeper understanding of its functionality and potentially contribute to its ongoing development. Whether you're a CS50x student or a curious developer, this guide provides insight into how the application works and how you can get involved. Happy coding!
+The CS50x QuickTab project is an innovative web application designed to assist CS50x students in their coursework. By exploring the codebase, you can better understand its functionality and potentially contribute to its ongoing development. Whether you're a CS50x student or a curious developer, this guide provides insight into how the application works and how you can get involved. Happy coding!
 
 ---
 
 Thanks to ChatGPT for writing this README.md!
-Not an Official tool developed by Harvard University, this is just a 13 year old's final project for the course!
+Not an Official tool developed by Harvard University, this is just a 13-year-old's final project for the course!
